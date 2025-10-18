@@ -1,0 +1,51 @@
+369964;Ruiz;Ana;13093613;43;user3@gmail.com.ar;2025-Abril-11;08:00 AM;130000;Buenos Aires;Salta;09C
+900776;Gomez;Carlos;67661826;60;user2@gmail.com;2025-Abril-11;08:00 AM;110000;Buenos Aires;Santa Fe;07B
+235128;Ruiz;Juan;57381828;37;user2@gmail.com;2025-Abril-11;08:00 AM;120000;Buenos Aires;Misiones;05D
+557109;Diaz;Carlos;80370155;80;user3@gmail.com.ar;2025-Abril-11;05:00 PM;180000;Buenos Aires;Misiones;03C
+47745;Lopez;Luis;15257097;22;user2@gmail.com;2025-Abril-11;02:45 PM;150000;Buenos Aires;Misiones;05D
+307126;Gomez;Carlos;52201972;39;user3@gmail.com.ar;2025-Abril-11;08:00 AM;110000;Buenos Aires;Santa Fe;08C
+543520;Diaz;Maria;45144352;31;user2@gmail.com;2025-Abril-11;08:00 AM;130000;Buenos Aires;Salta;09B
+105490;Lopez;Juan;31627048;36;user1@gmail.com;2025-Abril-11;08:00 AM;130000;Buenos Aires;Salta;04D
+290765;Lopez;Carlos;73366572;26;user1@gmail.com;2025-Abril-11;08:00 AM;130000;Buenos Aires;Salta;01D
+779716;Ruiz;Ana;88885442;47;user1@gmail.com;2025-Abril-11;08:00 AM;110000;Buenos Aires;Santa Fe;03C
+385190;Ruiz;Luis;99896252;36;user3@gmail.com.ar;2025-Febrero-13;05:00 PM;190000;Buenos Aires;Salta;07B
+93397;Gomez;Ana;12732148;22;user3@gmail.com.ar;2025-Febrero-13;08:00 AM;140000;Buenos Aires;Mendoza;09D
+995505;Ruiz;Carlos;17806196;31;user2@gmail.com;2025-Febrero-13;02:45 PM;170000;Buenos Aires;Mendoza;05C
+63956;Gomez;Luis;46717892;56;user1@gmail.com;2025-Febrero-13;02:45 PM;170000;Buenos Aires;Mendoza;08C
+965432;Diaz;Ana;25501192;41;user2@gmail.com;2025-Febrero-13;05:00 PM;190000;Buenos Aires;Salta;07D
+102690;Perez;Luis;70458084;60;user1@gmail.com;2025-Febrero-13;05:00 PM;200000;Buenos Aires;Mendoza;04A
+176622;Gomez;Carlos;64474259;55;user1@gmail.com;2025-Febrero-13;05:00 PM;180000;Buenos Aires;Misiones;08A
+700063;Diaz;Juan;84009879;80;user1@gmail.com;2025-Febrero-13;08:00 AM;110000;Buenos Aires;Santa Fe;06C
+521903;Lopez;Maria;49196436;55;user2@gmail.com;2025-Febrero-13;08:00 AM;130000;Buenos Aires;Salta;09D
+873248;Gomez;Maria;39112769;71;user2@gmail.com;2025-Febrero-13;02:45 PM;170000;Buenos Aires;Mendoza;03C
+369604;Perez;Maria;81355068;79;user2@gmail.com;2024-Diciembre-24;05:00 PM;190000;Buenos Aires;Salta;06D
+264766;Gomez;Luis;79444453;57;user2@gmail.com;2024-Diciembre-24;08:00 AM;130000;Buenos Aires;Salta;02D
+271151;Ruiz;Ana;14065220;78;user3@gmail.com.ar;2024-Diciembre-24;02:45 PM;170000;Buenos Aires;Mendoza;02B
+968365;Ruiz;Carlos;86042286;49;user1@gmail.com;2024-Diciembre-24;08:00 AM;110000;Buenos Aires;Santa Fe;11C
+222086;Diaz;Luis;83573153;29;user1@gmail.com;2024-Diciembre-24;08:00 AM;110000;Buenos Aires;Santa Fe;07B
+940569;Perez;Carlos;42331829;70;user3@gmail.com.ar;2024-Diciembre-24;08:00 AM;130000;Buenos Aires;Salta;05A
+46651;Diaz;Ana;86267789;63;user1@gmail.com;2024-Diciembre-24;02:45 PM;150000;Buenos Aires;Misiones;10D
+564127;Lopez;Maria;85857185;58;user1@gmail.com;2024-Diciembre-24;02:45 PM;170000;Buenos Aires;Mendoza;10B
+882320;Diaz;Luis;87819158;20;user2@gmail.com;2024-Diciembre-24;08:00 AM;130000;Buenos Aires;Salta;09C
+354549;Lopez;Luis;18797455;30;user2@gmail.com;2024-Diciembre-24;08:00 AM;120000;Buenos Aires;Misiones;10D
+280143;Ruiz;Juan;69197931;37;user2@gmail.com;2024-Diciembre-12;02:45 PM;135000;Buenos Aires;Santa Fe;03B
+513593;Gomez;Ana;89547808;61;user2@gmail.com;2024-Diciembre-12;08:00 AM;110000;Buenos Aires;Santa Fe;09C
+379086;Gomez;Carlos;11344969;32;user2@gmail.com;2024-Diciembre-12;08:00 AM;120000;Buenos Aires;Misiones;02D
+92036;Lopez;Carlos;81481793;35;user2@gmail.com;2024-Diciembre-12;05:00 PM;160000;Buenos Aires;Santa Fe;05B
+493268;Lopez;Luis;31555224;18;user3@gmail.com.ar;2024-Diciembre-12;05:00 PM;200000;Buenos Aires;Mendoza;04A
+922850;Perez;Ana;30475734;67;user1@gmail.com;2024-Diciembre-12;08:00 AM;140000;Buenos Aires;Mendoza;04C
+160741;Perez;Carlos;11486199;26;user3@gmail.com.ar;2024-Diciembre-12;05:00 PM;160000;Buenos Aires;Santa Fe;06C
+137086;Lopez;Ana;85506266;49;user2@gmail.com;2024-Diciembre-12;05:00 PM;180000;Buenos Aires;Misiones;11A
+997806;Gomez;Ana;42695046;32;user2@gmail.com;2024-Diciembre-12;05:00 PM;200000;Buenos Aires;Mendoza;02D
+544838;Diaz;Ana;38950920;80;user3@gmail.com.ar;2024-Diciembre-12;08:00 AM;110000;Buenos Aires;Santa Fe;07B
+229863;Lopez;Luis;53629893;50;user1@gmail.com;2025-Mayo-7;02:45 PM;135000;Buenos Aires;Santa Fe;04C
+638850;Gomez;Luis;45393451;29;user3@gmail.com.ar;2025-Mayo-7;05:00 PM;160000;Buenos Aires;Santa Fe;06D
+136173;Gomez;Juan;67089946;26;user1@gmail.com;2025-Mayo-7;05:00 PM;190000;Buenos Aires;Salta;09D
+959263;Lopez;Juan;27252999;38;user1@gmail.com;2025-Mayo-7;08:00 AM;140000;Buenos Aires;Mendoza;02D
+766262;Perez;Ana;50423362;31;user2@gmail.com;2025-Mayo-7;05:00 PM;180000;Buenos Aires;Misiones;08A
+735022;Lopez;Carlos;94885252;20;user3@gmail.com.ar;2025-Mayo-7;02:45 PM;135000;Buenos Aires;Santa Fe;06B
+193773;Diaz;Ana;55264620;30;user3@gmail.com.ar;2025-Mayo-7;02:45 PM;160000;Buenos Aires;Salta;03B
+421750;Gomez;Maria;53106163;72;user2@gmail.com;2025-Mayo-7;05:00 PM;190000;Buenos Aires;Salta;07A
+347438;Ruiz;Ana;51013349;25;user1@gmail.com;2025-Mayo-7;02:45 PM;135000;Buenos Aires;Santa Fe;03D
+666666;Gomez;Ana;45066448;69;user2@gmail.com;2025-Mayo-7;05:00 PM;190000;Buenos Aires;Salta;04B
+666666;Gomez;Ana;45066448;69;user2@gmail.com;2025-Mayo-7;05:00 PM;190000;Salta;Buenos Aires;10A
