@@ -178,7 +178,6 @@ Este proyecto fue desarrollado como parte del curriculum de programación, enfoc
 
 Proyecto educativo - Universidad Argentina de la Empresa (UADE)
 
----
 ## 👥 Autor
 
 **Valentín Mendez**
