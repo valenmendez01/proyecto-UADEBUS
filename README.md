@@ -1,53 +1,55 @@
-🚌 UADEBUS - Sistema de Gestión de Pasajes Interprovinciales
-📋 Descripción del Proyecto
+# 🚌 UADEBUS - Sistema de Gestión de Pasajes Interprovinciales
+
+## 📋 Descripción del Proyecto
+
 UADEBUS es un sistema robusto de gestión y venta de pasajes de micro interprovincial desarrollado completamente en Python. El proyecto implementa estructuras de datos avanzadas, algoritmos recursivos, y manejo integral de archivos para ofrecer una solución completa de reservas de viajes.
-✨ Características Principales
-🎯 Funcionalidades Core
 
-Sistema de Reservas Completo: Gestión de compra, consulta, modificación y cancelación de pasajes
-Gestión Multi-destino: Soporte para 5 provincias argentinas (Buenos Aires, Misiones, Salta, Mendoza, Santa Fe)
-Viajes de Ida y Vuelta: Posibilidad de reservar viajes redondos con validación de fechas
-Selección de Asientos: Interfaz visual ASCII para elegir asientos disponibles en tiempo real
-Sistema de Precios Dinámicos: Horarios múltiples con precios diferenciados
+## ✨ Características Principales
 
-💻 Características Técnicas Avanzadas
-Estructuras de Datos
+### 🎯 Funcionalidades Core
+- **Sistema de Reservas Completo**: Gestión de compra, consulta, modificación y cancelación de pasajes
+- **Gestión Multi-destino**: Soporte para 5 provincias argentinas (Buenos Aires, Misiones, Salta, Mendoza, Santa Fe)
+- **Viajes de Ida y Vuelta**: Posibilidad de reservar viajes redondos con validación de fechas
+- **Selección de Asientos**: Interfaz visual ASCII para elegir asientos disponibles en tiempo real
+- **Sistema de Precios Dinámicos**: Horarios múltiples con precios diferenciados
 
-Matrices: Gestión de asientos (11 filas × 4 columnas)
-Listas anidadas: Almacenamiento de datos de múltiples pasajeros
-Diccionarios: Configuración de horarios y precios por ruta
-Archivos JSON: Persistencia de configuración de horarios y precios
-Archivos de texto: Base de datos plana para reservas
+### 💻 Características Técnicas Avanzadas
 
-Algoritmos y Técnicas
+#### Estructuras de Datos
+- **Matrices**: Gestión de asientos (11 filas × 4 columnas)
+- **Listas anidadas**: Almacenamiento de datos de múltiples pasajeros
+- **Diccionarios**: Configuración de horarios y precios por ruta
+- **Archivos JSON**: Persistencia de configuración de horarios y precios
+- **Archivos de texto**: Base de datos plana para reservas
 
-Recursividad: Implementación de búsqueda recursiva de asientos (buscar_asiento)
-Algoritmo de Zeller: Cálculo del día de la semana para cualquier fecha (diadelasemana)
-Validaciones robustas: Verificación de emails, DNI, fechas, y datos de pago
-Manejo de excepciones: Try-except comprehensivo en todas las operaciones de I/O
+#### Algoritmos y Técnicas
+- **Recursividad**: Implementación de búsqueda recursiva de asientos (`buscar_asiento`)
+- **Algoritmo de Zeller**: Cálculo del día de la semana para cualquier fecha (`diadelasemana`)
+- **Validaciones robustas**: Verificación de emails, DNI, fechas, y datos de pago
+- **Manejo de excepciones**: Try-except comprehensivo en todas las operaciones de I/O
 
-Gestión de Archivos
+#### Gestión de Archivos
+- Lectura/escritura de archivos de texto
+- Parsing de JSON para configuración
+- Sistema de archivos temporales para operaciones CRUD
+- Persistencia de datos sin uso de bases de datos
 
-Lectura/escritura de archivos de texto
-Parsing de JSON para configuración
-Sistema de archivos temporales para operaciones CRUD
-Persistencia de datos sin uso de bases de datos
+### 🎨 Experiencia de Usuario
+- **Interfaz colorizada**: Uso de `colorama` para feedback visual
+- **Calendario visual**: Visualización mensual de fechas disponibles con códigos de color
+- **Mensajes contextuales**: Feedback claro en español con emojis
+- **Simulación de pagos**: Validación de múltiples métodos de pago (tarjeta, transferencia, efectivo)
 
-🎨 Experiencia de Usuario
+## 🛠️ Tecnologías Utilizadas
 
-Interfaz colorizada: Uso de colorama para feedback visual
-Calendario visual: Visualización mensual de fechas disponibles con códigos de color
-Mensajes contextuales: Feedback claro en español con emojis
-Simulación de pagos: Validación de múltiples métodos de pago (tarjeta, transferencia, efectivo)
+- **Python 3.x**
+- **Bibliotecas estándar**: `time`, `random`, `json`
+- **Colorama**: Para output colorizado en consola
+- **Manejo de archivos**: I/O de texto plano y JSON
 
-🛠️ Tecnologías Utilizadas
+## 📁 Estructura de Archivos
 
-Python 3.x
-Bibliotecas estándar: time, random, json
-Colorama: Para output colorizado en consola
-Manejo de archivos: I/O de texto plano y JSON
-
-📁 Estructura de Archivos
+```
 UADEBUS/
 │
 ├── main.py                      # Programa principal
@@ -56,11 +58,18 @@ UADEBUS/
 ├── reservas.txt                 # Base de datos de reservas
 ├── reservas_temp.txt            # Archivo temporal para operaciones
 └── README.md
-🚀 Instalación y Uso
-Requisitos
-bashpip install colorama
-Ejecución
-bashpython main.py
+```
+
+## 🚀 Instalación y Uso
+
+### Requisitos
+```bash
+pip install colorama
+```
+
+### Ejecución
+```bash
+python main.py
 ```
 
 ### Menú Principal
@@ -119,46 +128,67 @@ bashpython main.py
 ### Estructura de Reserva (reservas.txt)
 ```
 codigo;apellido;nombre;dni;edad;email;fecha;horario;precio;origen;destino;asiento
-Estructura de Horarios (horarios_precios.json)
-json{
+```
+
+### Estructura de Horarios (horarios_precios.json)
+```json
+{
     "Origen": {
         "Destino": {
             "HH:MM AM/PM": precio
         }
     }
 }
-🔒 Seguridad y Robustez
+```
 
-Manejo comprehensivo de excepciones (FileNotFoundError, OSError, ValueError)
-Validación de todos los inputs del usuario
-Cierre seguro de archivos con bloques finally
-Prevención de duplicados en asientos
-Validación de fechas lógicas (vuelta > ida)
+## 🔒 Seguridad y Robustez
 
-🎯 Casos de Uso
+- Manejo comprehensivo de excepciones (FileNotFoundError, OSError, ValueError)
+- Validación de todos los inputs del usuario
+- Cierre seguro de archivos con bloques `finally`
+- Prevención de duplicados en asientos
+- Validación de fechas lógicas (vuelta > ida)
 
-Usuario nuevo: Compra de pasaje simple
-Viaje familiar: Múltiples pasajeros en una reserva
-Viaje redondo: Ida y vuelta en fechas diferentes
-Cambio de planes: Modificación de reserva existente
-Cancelación: Eliminación de reserva del sistema
+## 🎯 Casos de Uso
 
-📈 Estadísticas del Código
+1. **Usuario nuevo**: Compra de pasaje simple
+2. **Viaje familiar**: Múltiples pasajeros en una reserva
+3. **Viaje redondo**: Ida y vuelta en fechas diferentes
+4. **Cambio de planes**: Modificación de reserva existente
+5. **Cancelación**: Eliminación de reserva del sistema
 
-Funciones: 20+ funciones modulares
-Líneas de código: ~750 líneas
-Validaciones: 15+ tipos de validación
-Manejo de archivos: 3 tipos (txt, json, temporal)
-Estructuras de datos: Matrices, listas, diccionarios, tuplas
+## 📈 Estadísticas del Código
 
-🤝 Contribuciones
+- **Funciones**: 20+ funciones modulares
+- **Líneas de código**: ~750 líneas
+- **Validaciones**: 15+ tipos de validación
+- **Manejo de archivos**: 3 tipos (txt, json, temporal)
+- **Estructuras de datos**: Matrices, listas, diccionarios, tuplas
+
+## 🤝 Contribuciones
+
 Este proyecto fue desarrollado como parte del curriculum de programación, enfocándose en:
+- Manejo avanzado de estructuras de datos en Python
+- Algoritmos recursivos
+- Persistencia de datos sin SQL
+- Experiencia de usuario en consola
+- Control de versiones con Git
 
-Manejo avanzado de estructuras de datos en Python
-Algoritmos recursivos
-Persistencia de datos sin SQL
-Experiencia de usuario en consola
-Control de versiones con Git
+## 📄 Licencia
 
-📄 Licencia
 Proyecto educativo - Universidad Argentina de la Empresa (UADE)
+
+---
+## 👥 Autor
+
+**Valentín Mendez**
+- GitHub: @valenmendez01
+- LinkedIn: https://www.linkedin.com/in/valentin-mendez/
+
+## 🙏 Agradecimientos
+
+Proyecto desarrollado como trabajo práctico del curso de Programación Orientada a Objetos.
+
+---
+
+⭐ Si te gustó este proyecto, no olvides darle una estrella en GitHub!
